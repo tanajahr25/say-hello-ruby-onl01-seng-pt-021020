@@ -12,15 +12,3 @@ describe "say_hello" do
     say_hello()
   end
 end
-
-def say_hello(name)
-  puts "Hello, #{name}"
-end
-
-def say_hello(name = John)
-  puts "Hello, this is #{name}"
-end
-
-def say_hello(name = John)
-  puts "Hello, #{name}"
-end
